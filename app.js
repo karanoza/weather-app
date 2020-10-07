@@ -15,6 +15,7 @@ if (!address) {
         return console.log(error);
       }
       console.log(location);
+      console.log("latitude" + latitude + "Longitude" + longitude);
       console.log(foreCastData);
     });
   });
